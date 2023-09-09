@@ -1,0 +1,1 @@
+aws ec2 create-key-pair --key-name projectkey --query 'KeyMaterial' --output text > projectkey.pem
